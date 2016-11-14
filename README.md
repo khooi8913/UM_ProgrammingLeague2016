@@ -1,2 +1,2 @@
 # programmingleague2016
-Collection of resources used for PEKOM Programming League 2016
+Collection of resources for PEKOM Programming League 2016
