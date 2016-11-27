@@ -1,6 +1,19 @@
 /*
     Programming League 2016
     Open Category Question A
+
+    Question Title: Combination Lock
+
+    **Disclaimer**
+    In the world of programming, there exists various ways to solve a problem.
+    The sample solution as discussed here might just be only one of the solutions and there may exists even better solutions.
+
+    Question Analysis:
+    A typical simulation problem which simulates the process of unlocking a combination lock.
+    Question has already clearly given the information needed in order to solve the problem.
+
+    You have to be very careful when facing with clockwise/ counter clockwise turns. (Refer to the picture)
+    In clockwise direction, the number decreases; in counter clockwise direction, the number increases.
 */
 
 import java.io.*;
