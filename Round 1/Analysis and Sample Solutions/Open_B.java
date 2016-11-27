@@ -12,8 +12,8 @@
 	Fairly simple sorting question, however, given the input enourmous 25MB input size, the use of fast and efficient IO and sorting algorithm
 	must be used in order to meet time limits. Hence, using bubble sort (time complexity O(N^2)) would definitely receive a Time Limit Exceeded Error.
 
-	There are built in sorting algorithms in Java's Collection Framework and Java's Arrays (also Python). 
-	E.g. Collections.sort() or Arrays.sort() are both having a time complexity of O(N*log(N)) which is highly efficient.
+	There are built in sorting algorithms in Java's Collection Framework and Java's Arrays (also Python sort() and C++ std::sort()).
+	E.g. in Java, Collections.sort() or Arrays.sort() are both having a time complexity of O(N*log(N)) which is highly efficient.
 	
 	Apart from that, you can try comparing the speed of outputting the elements in an Array one by one;
 	OR, constructing the answer string using the array before printing the array. Which would be faster?
