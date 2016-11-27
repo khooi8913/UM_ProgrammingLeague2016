@@ -6,7 +6,7 @@
 
     **Disclaimer**
     In the world of programming, there exists various ways to solve a problem.
-    The sample solution as discussed here might just be only one of the solutions and there may exists even better solutions.
+    The sample solution as discussed here might just be one of the solutions and there may exist even better solutions.
     
     Question Analysis:
     For this question, it is given to us that for each word, there would be at most ONE mistake and the word length is always correct.

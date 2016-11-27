@@ -6,7 +6,7 @@
 
 	**Disclaimer**
 	In the world of programming, there exists various ways to solve a problem.
-	The sample solution as discussed here might just be only one of the solutions and there may exists even better solutions.
+	The sample solution as discussed here might just be one of the solutions and there may exist even better solutions.
 
 	Question Analysis:
 	Fairly simple sorting question, however, given the input enourmous 25MB input size, the use of fast and efficient IO and sorting algorithm

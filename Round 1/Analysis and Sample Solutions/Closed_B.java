@@ -6,7 +6,7 @@
 
     **Disclaimer**
     In the world of programming, there exists various ways to solve a problem.
-    The sample solution as discussed here might just be only one of the solutions and there may exists even better solutions.
+    The sample solution as discussed here might just be one of the solutions and there may exist even better solutions.
 
     Question Analysis:
     Faily simple question. 
@@ -25,6 +25,55 @@
         If we want to find Ali, where should we go and find him? 
         Ali is the LANGUAGE while his address is the WORD in this case.
 */
+
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
+        String t, word = "";
+        int c = 1;
+        
+        do{
+            word = keyboard.readLine();
+            if(!word.equals("#")){
+                switch(word){
+                    case "HELLO":
+                        t = "ENGLISH";
+                        break;
+                    case "HOLA":
+                        t = "SPANISH";
+                        break;
+                    case "HALLO":
+                        t = "GERMAN";
+                        break;
+                    case "BONJOUR":
+                        t = "FRENCH";
+                        break;
+                    case "CIAO":
+                        t = "ITALIAN";
+                        break;
+                    case "ZDRAVSTVUJTE":
+                        t = "RUSSIAN";
+                        break;
+                    default:
+                        t = "UNKNOWN";
+                        break;
+                }
+                System.out.println("Case " + c + ": " + t);
+                c++;
+            }
+        }while(!word.equals("#"));
+    }
+    
+}
+
+/*
+
+MORE ADVANCED SOLUTION
 
 import java.io.*;
 import java.util.*;
@@ -61,3 +110,4 @@ public class Main {
     }
     
 }
+*/
