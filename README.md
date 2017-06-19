@@ -1,2 +1,2 @@
-# programmingleague2016
-Collection of resources for PEKOM Programming League 2016
+# UM PEKOM Programming League 2016
+Collection of resources for University of Malaya PEKOM Programming League 2016
